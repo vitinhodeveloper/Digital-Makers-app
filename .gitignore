@@ -1,0 +1,29 @@
+# Dependencias
+node_modules/
+
+# Compilacoes e executaveis pesados (mais de 200MB)
+dist/
+dist-electron/
+
+# Bancos de dados locais (dados das turmas da escola)
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Arquivos de variaveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
